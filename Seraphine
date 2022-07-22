@@ -1,0 +1,513 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "roboto", sans-serif;
+    margin: 0%;
+}
+
+html {
+    scroll-behavior:smooth
+}
+
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em; }
+p{ font-size: 2.25em; }
+
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 40px ;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5); 
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(139, 56, 86);
+
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{ color: palevioletred;}
+
+header {
+    background-color:rgb(235, 235, 235) ;
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: palevioletred;
+    font-size: 1.95em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover {
+    color: palevioletred;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/Seraphine_0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero h1 {
+    color: white;
+    font-size: 5em;
+}
+
+#InfoSeraphine {
+
+}
+
+#InfoSeraphine .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#habilidades {
+    background-color: rgb(175, 216, 255);
+    color: black;
+    text-align: center;
+}
+
+#habilidades .container {
+    padding: 150px 12px;
+
+}
+
+#habilidades h2 {
+    margin-top: 0;
+    font-size: 60px;
+}
+
+#habilidades p {
+    display: none;
+}
+
+#habilidades .carta {
+    color: white;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/SeraphinePPP.png");
+}
+
+.carta:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/SeraphineQQQ.png");
+}
+
+.carta:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/SeraphineWWW.png");
+    
+}
+
+.carta:nth-child(4) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/SeraphineEEE.png");    
+    
+}
+
+.carta:nth-child(5) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/SeraphineRRR.png");
+    
+}
+
+#builds .container{
+    text-align: center;
+    padding: 50px 12px;
+}
+
+
+#builds h2 {
+    margin-top: 30px;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    margin-bottom: -60px;
+}
+
+
+#builds p{
+    display: none;
+}
+
+#builds .cartas {
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    margin: 12px;
+    border-radius: 19px;
+
+}
+
+.cartas:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/Seraphine_4.jpg");
+    background-position: center;
+    background-position-y: -45px;
+}
+
+.cartas:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/Seraphine_2.jpg");
+    background-position: center;
+    background-position-y:-60px;
+}
+
+footer {
+    background-color: rgb(230,230,230);
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+    font-size: 25px;
+}
+
+footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+
+
+@media (min-width:720px) {
+    header {
+        position: fixed;
+        width:100% ;
+    }
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #InfoSeraphine .container{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    #InfoSeraphine .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #InfoSeraphine h2 {
+        margin-top: 0px;
+    }
+
+    #InfoSeraphine p {
+        font-size: 30px;
+    }
+
+    #InfoSeraphine .img-container {
+        background-image: url("/quienesseraphine.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 750px;
+        width: 400px;
+    }
+
+    #habilidades h3{
+        font-size: 25px;
+        text-align: center center;
+    }
+
+    #habilidades .habilidades2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #habilidades p {
+        display: block;
+        font-size:  20px;
+        text-align: center center;
+    }
+
+    #habilidades .carta {
+        padding: 15px;
+        margin: 15px 15px;
+
+    }
+
+    #habilidades .carta{
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgb(114, 51, 106);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        width: 370px;
+        height: 500px;
+    }
+
+    .carta:first-child {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("/SeraphinePPP.png");
+    }
+    
+    .carta:nth-child(2) {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("/SeraphineQQQ.png");
+    }
+    
+    .carta:nth-child(3) {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("/SeraphineWWW.png");
+        
+    }
+    
+    .carta:nth-child(4) {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("/SeraphineEEE.png");    
+        
+    }
+    
+    .carta:nth-child(5) {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("/SeraphineRRR.png");
+        
+    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seraphine</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <section id="top"></section>
+         <div class="container">
+            <p class="logo">MDB</p>
+            <nav>
+                <a href="#InfoSeraphine">Informacion de Seraphine</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#builds">Builds</a>
+            </nav>
+         </div>
+    </header>
+    <section id="hero">
+
+             <h1>Aprendé a jugar <br>Seraphine</h1>
+          <div class="form_btn">
+            <button type="button" class="btn_audio" onclick="sound.play()">Cambiemos el mundo!</button>
+
+        </div>
+        <script src="./app.js"></script>
+
+    </section>
+    <section id="InfoSeraphine">
+
+        <div class="container">
+
+          <div class="img-container"></div>
+          <div class="texto">
+               <h2>Información de <br><span class="color-acento">Seraphine</span></h2>
+               <p>Seraphine, de padres zaunitas, nació en Piltover y es capaz de escuchar las almas de los demás. El mundo le canta y ella le devuelve la canción. Aunque esos sonidos le resultaban abrumadores cuando era pequeña, ahora le sirven de inspiración, y transforma el caos en una sinfonía. Actúa para ambas ciudades con la intención de recordarles a sus ciudadanos que no están solos, que la unión hace la fuerza y que, a los ojos de Seraphine, su potencial es infinito.</p>
+        </div>
+    </div>
+    </section>
+    <section id="habilidades">
+        <div class="container">
+            
+
+    <h2>Habilidades</h2>
+    <div class="habilidades2">
+        <div class="carta">
+            <h3>(P) Presencia Escénica</h3>
+            <p><br><br>Cada tercera habilidad básica que utilice Seraphine se lanzará dos veces. Además, lanzar hechizos cerca de los aliados otorga daño mágico adicional y alcance en su siguiente ataque básico.</p>
+            <a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0147/ability_0147_P1.webm" target="_blank"> <button>Video</button></a>
+        </div>
+        <div class="carta">
+            <h3>(Q) Nota Alta <br> <br></h3>
+            <p><br><br>Seraphine lanza una nota musical e inflige daño en un área.<br><br><br><br><br><br><br></p>
+            <a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0147/ability_0147_Q1.webm" target="_blank"> <button>Video</button></a>
+        </div>
+        <div class="carta">
+            <h3>(W) Sonido Envolvente</h3>
+            <p><br><br>Seraphine otorga un escudo y acelera a los aliados cercanos. Si ella ya tiene un escudo, también cura a los aliados cercanos.<br><br><br><br></p>
+            <a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0147/ability_0147_W1.webm" target="_blank"> <button>Video</button></a>
+        </div>
+        <div class="carta">
+            <h3>(E) Clímax Musical <br></h3>
+            <p><br><br>Seraphine inflige daño e inmoviliza a los enemigos en una línea.<br><br><br><br><br><br><br></p>
+            <a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0147/ability_0147_E1.webm" target="_blank"> <button>Video</button></a>
+        </div>
+        <div class="carta">
+            <h3>(R) BIS <br> <br></h3>
+            <p><br><br>Seraphine inflige daño y hechiza a los enemigos golpeados. Restaura el alcance con cada campeón aliado o enemigo que alcanza.<br><br><br><br></p>
+            <a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0147/ability_0147_R1.webm" target="_blank"> <button>Video</button></a>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <section id="builds">
+        <div class="container">
+            <h2>Builds</h2>var sound = new Audio();
+sound.src = "./seraphinelol.mp3";
+
+        </div>
+     <div class="container">
+    
+         <div class="cartas">
+            <h3>Build AP</h3>
+            <button>+ Info</button>
+         </div>
+         <div class="cartas">
+            <h3>Build Supp</h3>
+            <button>+ Info</button>
+         </div>
+     </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; MDB 2022</p>
+        </div>
+    </footer>
+</body>
+</html>
+    #builds h3{
+        font-size: 25px;
+        text-align: center center;
+    }
+
+    #builds .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #builds .cartas{
+        margin: 70px;
+        padding: 105px;
+    }
+
+    @media (min-width: 1200px) {
+        #caracteristicas{
+            background-position-x: calc(100vw - 800px);
+        }
+    
+    footer .container{
+        justify-content: flex-end;
+    }
+
+}
