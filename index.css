@@ -145,7 +145,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/SeraphinePPP.png");
+    ,url("./imagenes/SeraphinePPP.png");
 }
 
 .carta:nth-child(2) {
@@ -154,7 +154,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/SeraphineQQQ.png");
+    ,url("./imagenes/SeraphineQQQ.png");
 }
 
 .carta:nth-child(3) {
@@ -163,7 +163,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/SeraphineWWW.png");
+    ,url("./imagenes/SeraphineWWW.png");
     
 }
 
@@ -173,7 +173,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/SeraphineEEE.png");    
+    ,url("./imagenes/SeraphineEEE.png");    
     
 }
 
@@ -183,7 +183,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/SeraphineRRR.png");
+    ,url("./imagenes/SeraphineRRR.png");
     
 }
 
@@ -220,7 +220,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/Seraphine_4.jpg");
+    ,url("./imagenes/Seraphine_4.jpg");
     background-position: center;
     background-position-y: -45px;
 }
@@ -231,7 +231,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/Seraphine_2.jpg");
+    ,url("./imagenes/Seraphine_2.jpg");
     background-position: center;
     background-position-y:-60px;
 }
@@ -298,7 +298,7 @@ footer .container {
     }
 
     #InfoSeraphine .img-container {
-        background-image: url("./quienesseraphine.jpg");
+        background-image: url("./imagenes/quienesseraphine.jpg");
         background-size: cover;
         background-position: center center;
         height: 750px;
@@ -343,7 +343,7 @@ footer .container {
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("imagenes/SeraphinePPP.png");
+        ,url("./imagenes/SeraphinePPP.png");
     }
     
     .carta:nth-child(2) {
@@ -352,7 +352,7 @@ footer .container {
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("imagenes/SeraphineQQQ.png");
+        ,url("./imagenes/SeraphineQQQ.png");
     }
     
     .carta:nth-child(3) {
@@ -361,7 +361,7 @@ footer .container {
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("imagenes/SeraphineWWW.png");
+        ,url("./imagenes/SeraphineWWW.png");
         
     }
     
@@ -371,7 +371,7 @@ footer .container {
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("imagenes/SeraphineEEE.png");    
+        ,url("./imagenes/SeraphineEEE.png");    
         
     }
     
@@ -381,7 +381,7 @@ footer .container {
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("imagenes/SeraphineRRR.png");
+        ,url("./imagenes/SeraphineRRR.png");
         
     }
 
