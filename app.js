@@ -1,2 +1,2 @@
 var sound = new Audio();
-sound.src = "./seraphinelol.mp3";
+sound.src = "sonido/seraphinelol.mp3";
